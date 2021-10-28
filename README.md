@@ -1,6 +1,6 @@
 # Sector Code Classifier
 
-Humanitarian organizations and grantmakers use **secor codes** to classify aid activitis. This project aims to build a **Sector Code Classifier** able to assign sector codes to aid activities based mainly on activity description information.
+Humanitarian organizations and grantmakers supporting humanitarian actors use **secor codes** to classify aid activitis. This project aims to build a **Sector Code Classifier** able to assign sector codes to aid activities based mainly on activity description information.
 
 
 

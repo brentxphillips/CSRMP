@@ -1,9 +1,12 @@
 # Sector Code Classifier
 
-Humanitarian organizations and grantmakers use **secor codes** to classify aid activitis. Below is an activity reported by Finland's Ministry of Foreign Affairs and the activity's corresponding sector code:
+Humanitarian organizations and grantmakers use **secor codes** to classify aid activitis. This project aims to build a **Sector Code Classifier** able to assign sector codes to aid activities based mainly on activity description information.
+
+
+
 ![activity code](https://github.com/brentxphillips/CSRMP/blob/main/activity_code.png)
 
-This project aims to build a **Sector Code Classifier** able to assign sector codes to aid activities based mainly on activity description information. The project will undertake to build, train and test the classifier and study ways of improving sector classification.
+Above is an activity reported by Finland's Ministry of Foreign Affairs and the activity's corresponding sector code. The project will build, train and test the classifier and study ways of improving sector classification across incongruous sector code vocabularies for the benefit of artificial intelligent applications.
 
 ### Application
 

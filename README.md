@@ -3,13 +3,11 @@
 Humanitarian organizations and grantmakers use **secor codes** to classify aid activitis. Below is an activity reported by Finland's Ministry of Foreign Affairs and the activity's corresponding sector code:
 ![activity code](https://github.com/brentxphillips/CSRMP/blob/main/activity_code.png)
 
-This project aims to build a **Sector Code Classifier** able to assign sector codes to aid activities based mainly on activity description information. The project will undertake to build, train and test a classifier to study to evaluate how to tackle classification, how a classification module can look and function as a plugin and how the base classifier can perform, informing subsiquant training, testing and classification work.
+This project aims to build a **Sector Code Classifier** able to assign sector codes to aid activities based mainly on activity description information. The project will undertake to build, train and test the classifier and study ways of improving sector classification.
 
 ### Application
 
-IATI is an open data sharing framework humanitarian organizations use to report aid activities. Infromation on aid activities can also be found in the Humanitarian Data Exchange, ReliefWeb and eslewhere.
-
-A large percentage of aid activities published on IATI (the most widely used framework and one mandated by many government development agencies) include sector code information (from standardized vocabularies like OECD-DAC). However many activity files contain missing codes and a percentage that are coded use standard vocabulariries different than OECD-DAC. The project will use IATI data to train and test a classifier able to examine activity description information and assign the OECD-DAC activity a classification code, where a code might be missing, and where codes exist, check (rate or other) the accuracy of codes that are provided and assign the activity a main code from a top-level vocabulary in cases where other vocabularies are used.
+IATI is an open data sharing framework widely used by humanitarian organizations to report aid activities and mandated by many government development agencies. A large percentage of activities reported via IATI include sector code information referencing codes listed in standardized vocabularies. However these vocabularies contain different codes and it's difficult to correlate codes across vocabulariresmany activities refere different standardized vocabularires and incongruous codes and many files don't contain any sector information. The project will use IATI data to train and test a classifier able to examine activity description information and assign the OECD-DAC activity a classification code, where a code might be missing, and where codes exist, check (rate or other) the accuracy of codes that are provided and assign the activity a main code from a top-level vocabulary in cases where other vocabularies are used.
 
 ### Research Problem
 

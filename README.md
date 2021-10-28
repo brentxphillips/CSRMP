@@ -1,5 +1,9 @@
 # Sector Code Classifier
 
+Humanitarian organizations use **secor codes** to classify aid activitis. This project aims to build a rudamentry sector code classifier able to assign sector codes to aid activities based mainly on activity titles and description text (with the possiblity of other parameters capable of being added), to use to evaluate how to tackle classification, how a classification module can look and function as a plugin and how the base classifier can perform, informing subsiquant training, testing and classification work.
+
+
+
 text
 
 ## IATI Data Fields

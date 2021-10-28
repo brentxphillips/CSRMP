@@ -19,7 +19,7 @@ Vocabulary | An IATI code for the vocabulary (see codelist) used for sector clas
 Vocabulary-uri | The URI where this vocabulary is defined. If the vocabulary is 99 or 98 (reporting organisation), the URI where this internal vocabulary is defined. While this is an optional field it is STRONGLY RECOMMENDED that all publishers use it to ensure that the meaning of their codes are fully understood by data users.
 Code | The code for the sector.
 
-** Example IATI File
+## Example IATI File
 
 One activity carried out it Jordan by CAFOD, note the Title, Description and Sector fields:
 

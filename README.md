@@ -2,6 +2,8 @@
 
 Humanitarian organizations use **secor codes** to classify aid activitis, and many codelist (see code lists initiatives have been started). This project aims to build a rudamentry sector code classifier able to assign sector codes to aid activities based mainly on activity titles and description text (with the possiblity of other parameters capable of being added), to use to evaluate how to tackle classification, how a classification module can look and function as a plugin and how the base classifier can perform, informing subsiquant training, testing and classification work.
 
+### Application
+
 IATI is an open data sharing framework humanitarian organizations use to report aid activities. A large percentage of aid activities published on IATI include sector code information however many activity files contain missing codes. The project will use IATI data to train and test a classifier able to examine activity description information and assign the activity a classification code, where a code might be missing, and where codes exist, check (rate or other) the accuracy of codes that are provided and assign the activity a main code from a top-level vocabulary in cases where other vocabularies are used.
 
 ### Research Problem

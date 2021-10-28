@@ -1,4 +1,4 @@
-# IATI Data Classifier
+# Sector Code Classifier
 
 text
 

@@ -1,5 +1,13 @@
 # IATI Data Classifier
 
+Fields
+
+IATI Fields | Description
+---- | ----
+Sector | A recognised code, from a recognised vocabulary, classifying the purpose of the activity. Sector MUST EITHER be reported here OR at transaction level for ALL transactions
+Vocabulary | x
+Code | x
+
 x
 
 Data | Storage Bucket

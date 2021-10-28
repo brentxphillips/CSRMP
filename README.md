@@ -1,6 +1,8 @@
 # Sector Code Classifier
 
-Humanitarian organizations use **secor codes** to classify aid activitis. This project aims to build a rudamentry sector code classifier able to assign sector codes to aid activities based mainly on activity titles and description text (with the possiblity of other parameters capable of being added), to use to evaluate how to tackle classification, how a classification module can look and function as a plugin and how the base classifier can perform, informing subsiquant training, testing and classification work.
+Humanitarian organizations use **secor codes** to classify aid activitis, and many codelist (see code lists initiatives have been started). This project aims to build a rudamentry sector code classifier able to assign sector codes to aid activities based mainly on activity titles and description text (with the possiblity of other parameters capable of being added), to use to evaluate how to tackle classification, how a classification module can look and function as a plugin and how the base classifier can perform, informing subsiquant training, testing and classification work.
+
+IATI is an open data sharing framework humanitarian organizations use to report aid activities. A large percentage of aid activities published on IATI include sector code information however many activity files contain missing codes. The project will use IATI data to train and test a classifier able to examine activity description information and assign the activity a classification code, where a code might be missing, and where codes exist, check (rate or other) the accuracy of codes that are provided and assign the activity a main code from a top-level vocabulary in cases where other vocabularies are used.
 
 
 
@@ -8,7 +10,7 @@ text
 
 ## IATI Data Fields
 
-IATI Summary Table: https://iatistandard.org/en/iati-standard/203/activity-standard/summary-table/
+IATI contains hundreds of parent and child fields. IATI Summary Table: https://iatistandard.org/en/iati-standard/203/activity-standard/summary-table/
 
 ### Project Relevant Fields
 
@@ -23,15 +25,21 @@ Vocabulary | An IATI code for the vocabulary (see codelist) used for sector clas
 Vocabulary-uri | The URI where this vocabulary is defined. If the vocabulary is 99 or 98 (reporting organisation), the URI where this internal vocabulary is defined. While this is an optional field it is STRONGLY RECOMMENDED that all publishers use it to ensure that the meaning of their codes are fully understood by data users.
 Code | The code for the sector.
 
+Here is a sample CSV file comtaining x number of activities (with defferent vocabularies)
+
 ## Example IATI File
 
 One activity carried out it Jordan by CAFOD, note the Title, Description and Sector fields:
 
 ![file](https://github.com/brentxphillips/CSRMP/blob/main/iati_example.png)
 
-Here is a breakdown of the sector code, and child codes, provided by AidData.
+Here is a breakdown of the sector code used above, and child codes, provided by AidData. 
 
 ![basic health](https://github.com/brentxphillips/CSRMP/blob/main/basic_health.png)
+
+Typically code descriptions are one or more sentences long. Here is an example of a more detailed text:
+
+(image)
 
 ## Project Data
 

@@ -1,6 +1,6 @@
 # Sector Code Classifier
 
-(Image Description + code)
+![activity code](https://github.com/brentxphillips/CSRMP/blob/main/activity_code.png)
 
 Humanitarian organizations use **secor codes** to classify aid activitis. This project aims to build a rudamentry **Sector Code Classifier** able to assign sector codes to aid activities based mainly on activity description text, to use to evaluate how to tackle classification, how a classification module can look and function as a plugin and how the base classifier can perform, informing subsiquant training, testing and classification work.
 

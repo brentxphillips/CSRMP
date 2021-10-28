@@ -4,9 +4,13 @@ Humanitarian organizations use **secor codes** to classify aid activitis, and ma
 
 IATI is an open data sharing framework humanitarian organizations use to report aid activities. A large percentage of aid activities published on IATI include sector code information however many activity files contain missing codes. The project will use IATI data to train and test a classifier able to examine activity description information and assign the activity a classification code, where a code might be missing, and where codes exist, check (rate or other) the accuracy of codes that are provided and assign the activity a main code from a top-level vocabulary in cases where other vocabularies are used.
 
+### Research Problem
 
+Centrally, the project is interested in (build approaches) and how accurately a classifier can perform, based on limited code descritive information and actvity descriptive text. Can the classifier infer or match sector code chapters and then individule parent codes and child codes? At heart the project is interested in information traversal and relationship determinations and the use of codes to add relationships.
 
-text
+### Development Objective
+
+The project hopes to develop or facilitate the development of a sector coding module able to fit within a code-set, and help build the code-set. Core algorithm (code), and a framework or module
 
 ## IATI Data Fields
 

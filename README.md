@@ -2,13 +2,11 @@
 
 Humanitarian organizations use **sector codes** to classify aid activities. This project will undertake to build a **Sector Code Classifier** able to assign sector codes to aid activities based mainly on activity description information. Two child-projects link to this parent project: [IATI Descriptions]() and [Sector Codes]().
 
-
-
 ![activity code](https://github.com/brentxphillips/CSRMP/blob/main/activity_code.png)
 
 Above is an activity reported by Finland's Ministry of Foreign Affairs and the activity's corresponding sector code. The project will build, train and test the classifier and study ways of improving sector classification across incongruous sector code vocabularies for the benefit of artificial intelligent applications.
 
-### Application
+### Background
 
 IATI is an open data sharing framework widely used by humanitarian organizations to report aid activities and mandated by many government development agencies. A large percentage of activities reported via IATI include sector code information referencing codes listed in standardized vocabularies. However these vocabularies contain different codes and it's difficult to correlate codes across vocabulariresmany activities refere different standardized vocabularires and incongruous codes and many files don't contain any sector information. The project will use IATI data to train and test a classifier able to examine activity description information and assign the OECD-DAC activity a classification code, where a code might be missing, and where codes exist, check (rate or other) the accuracy of codes that are provided and assign the activity a main code from a top-level vocabulary in cases where other vocabularies are used.
 

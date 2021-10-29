@@ -12,13 +12,19 @@ IATI is an open data sharing standard and reporting framework widely used across
 
 A large percentage of IATI reported activities contain coded sector references clarifying the purpose of individual activities. Sector codes refer to codes listed in standardized vocabularies curated by different initiatives, the most commonly used being [OECD-DAC 5 digit purpose codes](https://iatistandard.org/en/iati-standard/203/codelists/sector/). Excluding the problem of their differing taxonomies, comparing activities using sector codes can help voice applications use IATI data to answer complex queries posed by humanitarian actors.
 
-## Project Focus
+### Project Focus
 
 The project will develop and use IATI data to train and test a classifier able to assign hybrid purpose and activity codes curated by [AidData](https://www.aiddata.org/) to activities through mainly comparing keywords and phrases found in activity descriptions to those found in sector code descriptions. Operationally, the classifier will be able to verify sector codes found in activity files, assign codes to actvities missing sector information and make activities coded using different vocabularies sector-comparable.
 
 ### Research Problem
 
 From a research perspective, the project is interested in how to approach building a sector classifier, how the classifier can be packaged for use at scale by voice applications in conjunction with other classifiers and algorithms and how accurately this project's classifier can perform based on limited keyword and phrase information found in activity **description** and **sector** fields. Whether or not a classifier can be built capable of performing sufficently will help answer whether sector codes can help artificial intelligent applications infer relationships between aid activities and traverse aid activity information, collecting useful information for answering queries.
+
+### Development Methodology
+text 
+
+* The project will store two main datasets in a Google Cloud storage bucket, a CSV file containing activity descriptions taken from some or all of IATI's entire coprus and a CSV file listing sector codes and their respective descriptions.
+* text
 
 ## Resources
 

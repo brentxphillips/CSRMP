@@ -12,17 +12,13 @@ A large percentage of IATI reported activities contain coded sector references c
 
 ## Project Focus
 
-The project will use IATI data to train and test a classifier able to classify and assign hybrid purpose and activity codes curated by [AidData]() to reported activities through mainly comparing keywords and phrases found in activity descriptions to those found in sector code descriptions. The project will then use existing sector codes found in many activity files to validate classification accuracy through training and testing iterations.
-
-Operationally, the classifier will be able to verify the accuracy of reported codes found in activity files, assign codes to actvities missing sector code information, and also make activities containg codes but using incongruous codes from different vocabularies sector comparable.
+The project will develop and use IATI data to train and test a classifier able to assign hybrid purpose and activity codes curated by [AidData]() to activities through mainly comparing keywords and phrases found in activity descriptions to those found in sector code descriptions. Operationally, the classifier will be able to verify sector codes found in activity files, assign codes to actvities missing sector information and make activities coded using different vocabularies sector-comparable.
 
 ### Research Problem
 
-Centrally, (from a processing perspective) the project is interested in (build approaches) and how accurately a classifier can perform, based on limited code descritive information and actvity descriptive text. Can the classifier infer or match sector code chapters and then individule parent codes and child codes? At heart the project is interested in information traversal and relationship determinations and the use of codes to add relationships.
+From a research perspective, the project is interested in how to approach building a sector classifier, how the classifier can be packaged for use at scale and how accurately a classifier can perform based on limited keyword and phrase information found in activity **description** and **sector** fields. Whether or not a classifier can be built capable of performing sufficently will help answer whether sector codes can help artificial intelligent applications infer relationships between aid activities and traverse aid activity information, collecting useful information for answering queries.
 
-### Development Objective
 
-The project hopes to develop or facilitate the development of a sector coding module able to fit within a code-set, and help build the code-set. Core algorithm (code), and a framework or module
 
 ## IATI Data Fields
 

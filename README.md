@@ -18,9 +18,22 @@ The project will develop and use IATI data to train and test a classifier able t
 
 From a research perspective, the project is interested in how to approach building a sector classifier, how the classifier can be packaged for use at scale and how accurately a classifier can perform based on limited keyword and phrase information found in activity **description** and **sector** fields. Whether or not a classifier can be built capable of performing sufficently will help answer whether sector codes can help artificial intelligent applications infer relationships between aid activities and traverse aid activity information, collecting useful information for answering queries.
 
+## Resources
 
+### Project Data
 
-## IATI Data Fields
+Data | Storage Bucket
+---- | ----
+IATI Dataset | https://storage.cloud.google.com/sectordataset/Oxfam_activities.csv
+Sector Codes | https://storage.cloud.google.com/sectordataset/aiddata_purpose_codes.csv
+
+### Fields and endpoints
+
+The datasets use these fields and endpoints
+
+## IATI
+
+### IATI Data Fields
 
 IATI contains hundreds of parent and child fields. IATI Summary Table: https://iatistandard.org/en/iati-standard/203/activity-standard/summary-table/
 
@@ -45,6 +58,8 @@ One activity carried out it Jordan by CAFOD, note the Title, Description and Sec
 
 ![file](https://github.com/brentxphillips/CSRMP/blob/main/iati_example.png)
 
+## AidData Purpose and Activity Fields
+
 Here is a breakdown of the sector code used above, and child codes, provided by AidData. 
 
 ![basic health](https://github.com/brentxphillips/CSRMP/blob/main/basic_health.png)
@@ -53,9 +68,4 @@ Typically code descriptions are one or more sentences long. Here is an example o
 
 (image)
 
-## Project Data
 
-Data | Storage Bucket
----- | ----
-IATI Dataset | https://storage.cloud.google.com/sectordataset/Oxfam_activities.csv
-Sector Codes | https://storage.cloud.google.com/sectordataset/aiddata_purpose_codes.csv

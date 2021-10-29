@@ -8,7 +8,7 @@ Humanitarian organizations use **sector codes** to classify aid activities. This
 
 IATI is an open data sharing standard and reporting framework widely used across the humanitarian community for reporting aid activities that is mandated by many government development agencies.
 
-A large percentage of IATI reported activities contain coded sector references clarifying the purpose of individual activities. Sector codes refer to codes listed in standardized vocabularies curated by different initiatives, the most commonly used being [OECD-DAC 5 digit purpose codes(https://iatistandard.org/en/iati-standard/203/codelists/sector/). Excluding the problem of their differing taxonomies, comparing activities using sector codes can help voice applications use IATI data to answer complex queries posed by humanitarian actors.
+A large percentage of IATI reported activities contain coded sector references clarifying the purpose of individual activities. Sector codes refer to codes listed in standardized vocabularies curated by different initiatives, the most commonly used being [OECD-DAC 5 digit purpose codes](https://iatistandard.org/en/iati-standard/203/codelists/sector/). Excluding the problem of their differing taxonomies, comparing activities using sector codes can help voice applications use IATI data to answer complex queries posed by humanitarian actors.
 
 ## Project Focus
 

@@ -70,6 +70,8 @@ One activity carried out it Jordan by CAFOD, note the Title, Description and Sec
 
 ![file](https://github.com/brentxphillips/CSRMP/blob/main/iati_example.png)
 
+This activity's XML file can be found [here](https://github.com/brentxphillips/CSRMP/blob/main/undpko.xml).
+
 ### IATI Data Fields
 
 IATI contains hundreds of parent and child fields. IATI Summary Table: https://iatistandard.org/en/iati-standard/203/activity-standard/summary-table/

@@ -95,7 +95,7 @@ Here is a sample CSV file comtaining x number of activities (with defferent voca
 
 IATI encourages publishers to use OECD-DAC 5 digit sector codes in their aid activity files. OECD-DAC sector code vocabulary contains hundreds of "purpose" codes organized into areas. The AidData initiativer has broken down OECD-DAC codes further, adding "activity" codes to purpose codes. Because of its granularity and text content capable of being analyzed, AidData's vocabulary is better suited for classification training and testing.
 
-AidData's fields can be found [here]().
+AidData's fields can be found [here](https://github.com/brentxphillips/CSRMP/blob/main/undpko.xml).
 
 Here is a breakdown of the sector code used above, and child codes, provided by AidData. 
 

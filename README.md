@@ -1,26 +1,39 @@
 # Sector Code Classifier
 
-Humanitarian organizations use **secor codes** to classify aid activitis. This project aims to build a **Sector Code Classifier** able to assign sector codes to aid activities based mainly on activity description information. The project will partner with two connected projects: [one]() and [two]()
-
-
+Humanitarian organizations use **sector codes** to classify aid activities. This project will undertake to build a **Sector Code Classifier** able to assign sector codes to aid activities based mainly on activity description information. Two child-projects link to this parent project: [IATI Descriptions]() and [Sector Codes]().
 
 ![activity code](https://github.com/brentxphillips/CSRMP/blob/main/activity_code.png)
 
-Above is an activity reported by Finland's Ministry of Foreign Affairs and the activity's corresponding sector code. The project will build, train and test the classifier and study ways of improving sector classification across incongruous sector code vocabularies for the benefit of artificial intelligent applications.
+### Background
 
-### Application
+IATI is an open data sharing standard and reporting framework widely used across the humanitarian community for reporting aid activities that is mandated by many government development agencies.
 
-IATI is an open data sharing framework widely used by humanitarian organizations to report aid activities and mandated by many government development agencies. A large percentage of activities reported via IATI include sector code information referencing codes listed in standardized vocabularies. However these vocabularies contain different codes and it's difficult to correlate codes across vocabulariresmany activities refere different standardized vocabularires and incongruous codes and many files don't contain any sector information. The project will use IATI data to train and test a classifier able to examine activity description information and assign the OECD-DAC activity a classification code, where a code might be missing, and where codes exist, check (rate or other) the accuracy of codes that are provided and assign the activity a main code from a top-level vocabulary in cases where other vocabularies are used.
+A large percentage of IATI reported activities contain coded sector references clarifying the purpose of individual activities. Sector codes refer to codes listed in standardized vocabularies curated by different initiatives, the most commonly used being [OECD-DAC 5 digit purpose codes](https://iatistandard.org/en/iati-standard/203/codelists/sector/). Excluding the problem of their differing taxonomies, comparing activities using sector codes can help voice applications use IATI data to answer complex queries posed by humanitarian actors.
+
+## Project Focus
+
+The project will develop and use IATI data to train and test a classifier able to assign hybrid purpose and activity codes curated by [AidData](https://www.aiddata.org/) to activities through mainly comparing keywords and phrases found in activity descriptions to those found in sector code descriptions. Operationally, the classifier will be able to verify sector codes found in activity files, assign codes to actvities missing sector information and make activities coded using different vocabularies sector-comparable.
 
 ### Research Problem
 
-Centrally, (from a processing perspective) the project is interested in (build approaches) and how accurately a classifier can perform, based on limited code descritive information and actvity descriptive text. Can the classifier infer or match sector code chapters and then individule parent codes and child codes? At heart the project is interested in information traversal and relationship determinations and the use of codes to add relationships.
+From a research perspective, the project is interested in how to approach building a sector classifier, how the classifier can be packaged for use at scale and how accurately a classifier can perform based on limited keyword and phrase information found in activity **description** and **sector** fields. Whether or not a classifier can be built capable of performing sufficently will help answer whether sector codes can help artificial intelligent applications infer relationships between aid activities and traverse aid activity information, collecting useful information for answering queries.
 
-### Development Objective
+## Resources
 
-The project hopes to develop or facilitate the development of a sector coding module able to fit within a code-set, and help build the code-set. Core algorithm (code), and a framework or module
+### Project Data
 
-## IATI Data Fields
+Data | Storage Bucket
+---- | ----
+IATI Dataset | https://storage.cloud.google.com/sectordataset/Oxfam_activities.csv
+Sector Codes | https://storage.cloud.google.com/sectordataset/aiddata_purpose_codes.csv
+
+### Fields and endpoints
+
+The datasets use these fields and endpoints
+
+## IATI
+
+### IATI Data Fields
 
 IATI contains hundreds of parent and child fields. IATI Summary Table: https://iatistandard.org/en/iati-standard/203/activity-standard/summary-table/
 
@@ -39,11 +52,13 @@ Code | The code for the sector.
 
 Here is a sample CSV file comtaining x number of activities (with defferent vocabularies)
 
-## Example IATI File
+### Example IATI File
 
 One activity carried out it Jordan by CAFOD, note the Title, Description and Sector fields:
 
 ![file](https://github.com/brentxphillips/CSRMP/blob/main/iati_example.png)
+
+## AidData Purpose and Activity Fields
 
 Here is a breakdown of the sector code used above, and child codes, provided by AidData. 
 
@@ -51,11 +66,6 @@ Here is a breakdown of the sector code used above, and child codes, provided by 
 
 Typically code descriptions are one or more sentences long. Here is an example of a more detailed text:
 
-(image)
+(images)
 
-## Project Data
 
-Data | Storage Bucket
----- | ----
-IATI Dataset | https://storage.cloud.google.com/sectordataset/Oxfam_activities.csv
-Sector Codes | https://storage.cloud.google.com/sectordataset/aiddata_purpose_codes.csv

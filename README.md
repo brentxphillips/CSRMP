@@ -66,6 +66,6 @@ Here is a breakdown of the sector code used above, and child codes, provided by 
 
 Typically code descriptions are one or more sentences long. Here is an example of a more detailed text:
 
-(image)
+(images)
 
 

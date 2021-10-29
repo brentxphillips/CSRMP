@@ -14,7 +14,7 @@ A large percentage of IATI reported activities contain coded sector references c
 
 The project will use IATI data to train and test a classifier able to classify and assign hybrid purpose and activity codes curated by [AidData]() to reported activities through mainly comparing keywords and phrases found in activity descriptions to those found in sector code descriptions. The project will then use existing sector codes found in many activity files to validate classification accuracy through training and testing iterations.
 
-Operationally, the classifier will be able to assign codes to actvities missing sector code information, varify sector infomration (for activities that contain codes) and also make activities containg codes but using incongruous codes from different vocabularies sector comparable.
+Operationally, the classifier will be able to verify the accuracy of reported codes found in activity files, assign codes to actvities missing sector code information, and also make activities containg codes but using incongruous codes from different vocabularies sector comparable.
 
 ### Research Problem
 

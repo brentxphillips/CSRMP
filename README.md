@@ -18,7 +18,7 @@ The project will develop and use IATI data to train and test a classifier able t
 
 ### Research Problem
 
-From a research perspective, the project is interested in how to approach building a sector classifier, how the classifier can be packaged for use at scale and how accurately a classifier can perform based on limited keyword and phrase information found in activity **description** and **sector** fields. Whether or not a classifier can be built capable of performing sufficently will help answer whether sector codes can help artificial intelligent applications infer relationships between aid activities and traverse aid activity information, collecting useful information for answering queries.
+From a research perspective, the project is interested in how to approach building a sector classifier, how the classifier can be packaged for use at scale by voice applications in conjunction with other classifiers and algorithms and how accurately this project's classifier can perform based on limited keyword and phrase information found in activity **description** and **sector** fields. Whether or not a classifier can be built capable of performing sufficently will help answer whether sector codes can help artificial intelligent applications infer relationships between aid activities and traverse aid activity information, collecting useful information for answering queries.
 
 ## Resources
 

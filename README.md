@@ -52,7 +52,7 @@ Code | The code for the sector.
 
 Here is a sample CSV file comtaining x number of activities (with defferent vocabularies)
 
-## Example IATI File
+### Example IATI File
 
 One activity carried out it Jordan by CAFOD, note the Title, Description and Sector fields:
 

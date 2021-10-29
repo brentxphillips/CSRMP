@@ -25,7 +25,24 @@ From a research perspective, the project is interested in how to approach buildi
 Listed below are main steps that the project will carry out:
 
 * The project will store two main datasets in a Google Cloud storage bucket, a CSV file containing activity descriptions taken from some or all of IATI's entire coprus and a CSV file listing sector codes and their respective descriptions.
-* text
+* Establish all the necessary APIs and endpoints
+* Setup a CoLab notebook for the project
+* Test accessing data from the datasets via CoLab
+* Identify and ready natural language processing tools
+* Ready Tensorflow
+* Carry-out basic testing and basic classifications to test the sandbox and components
+* Develop a way to score classification results based on comparing sector codes assigned by the classifier to actual codes added by authors.
+* Begin training and testing the classifier
+* Examine where the classifier is failing and then create annotated datasets to use for retraining.
+* Incrementally train and improve the classifier and improve training resources
+
+### Outputs
+
+* The project will try to (iterate through basic setup challenges) setup a sandbox to study the classification of aid activity information, useful for this project and others, facilitating subsequent research.
+* Generate a basic classification algorithm
+* Report on its performance
+* Make and collect improvement recomendations
+
 
 ## Resources
 

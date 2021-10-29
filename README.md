@@ -2,7 +2,7 @@
 
 ![activity code](https://github.com/brentxphillips/CSRMP/blob/main/description_sector.png)
 
-Humanitarian organizations use **sector codes** to classify aid activities. This project will undertake to build a **Sector Code Classifier** able to assign sector codes to aid activities based mainly on activity description information. Two child-projects link to this parent project: [IATI Descriptions]() and [Sector Codes]().
+Humanitarian organizations use **sector codes** to classify aid activities. This project will try to build a **Sector Code Classifier** able to assign sector codes to aid activities based mainly on activity description information. Two child-projects link to this parent project: [IATI Descriptions]() and [Sector Codes]().
 
 
 

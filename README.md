@@ -44,7 +44,7 @@ Listed below are main steps that the project will carry out:
 * Make and collect improvement recomendations
 
 
-## Resources
+## Project Resources
 
 ### Project Data
 
@@ -57,13 +57,24 @@ Sector Codes | https://storage.cloud.google.com/sectordataset/aiddata_purpose_co
 
 The datasets use these fields and endpoints
 
-## IATI
+
+## IATI Data and Sector Codes
+
+IATI is a standard and reporting framework developed by the humanitarian communitry through the International Aid Transparency Initiative. Humanitarian and development organizations, grantmakers and other stakeholders piublish to IATI by converting information on aid activities to machine readable XML in compliance with the IATI standard, publish the generated XML files on their own servers and then register matadata to IATI's registry making the information visible to others.
+
+The standard uses hundreds of elements and codelists, making it possible to report aid activities in granular highly structured detail.
+
+### Example IATI File
+
+One activity carried out it Jordan by CAFOD, note the Title, Description and Sector fields:
+
+![file](https://github.com/brentxphillips/CSRMP/blob/main/iati_example.png)
 
 ### IATI Data Fields
 
 IATI contains hundreds of parent and child fields. IATI Summary Table: https://iatistandard.org/en/iati-standard/203/activity-standard/summary-table/
 
-### Project Relevant Fields
+### Sector Classification Relevant Fields
 
 The project is primarily interested in activity **Title**, **Description** and **Sector** fields.
 
@@ -77,12 +88,6 @@ Vocabulary-uri | The URI where this vocabulary is defined. If the vocabulary is 
 Code | The code for the sector.
 
 Here is a sample CSV file comtaining x number of activities (with defferent vocabularies)
-
-### Example IATI File
-
-One activity carried out it Jordan by CAFOD, note the Title, Description and Sector fields:
-
-![file](https://github.com/brentxphillips/CSRMP/blob/main/iati_example.png)
 
 ## AidData Purpose and Activity Fields
 

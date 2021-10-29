@@ -4,9 +4,11 @@ Humanitarian organizations use **sector codes** to classify aid activities. This
 
 ![activity code](https://github.com/brentxphillips/CSRMP/blob/main/activity_code.png)
 
-Above is an activity reported by Finland's Ministry of Foreign Affairs and the activity's corresponding sector code. The project will build, train and test the classifier and study ways of improving sector classification across incongruous sector code vocabularies for the benefit of artificial intelligent applications.
-
 ### Background
+
+IATI is an open data sharing standard and reporting framework widely used across the humanitarian community for reporting aid activities that is mandated by many government development agencies.
+
+A large percentage of IATI reported activities contain sector code information clarifying the purpose of individual activities. Sector codes refer to codes listed in standardized vocabularies curated by different initiatives. Excluding the problem of their differing taxonomies, comparing activities using sector codes can help voice applications process and answer complex queries posed by humanitarian actors.
 
 IATI is an open data sharing framework widely used by humanitarian organizations to report aid activities and mandated by many government development agencies. A large percentage of activities reported via IATI include sector code information referencing codes listed in standardized vocabularies. However these vocabularies contain different codes and it's difficult to correlate codes across vocabulariresmany activities refere different standardized vocabularires and incongruous codes and many files don't contain any sector information. The project will use IATI data to train and test a classifier able to examine activity description information and assign the OECD-DAC activity a classification code, where a code might be missing, and where codes exist, check (rate or other) the accuracy of codes that are provided and assign the activity a main code from a top-level vocabulary in cases where other vocabularies are used.
 
